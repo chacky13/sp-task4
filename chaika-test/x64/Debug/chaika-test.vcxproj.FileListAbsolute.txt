@@ -1,0 +1,3 @@
+C:\Users\bhffb\Desktop\spkursova\lab4\chaika-test\x64\Debug\gtest.pdb
+C:\Users\bhffb\Desktop\spkursova\lab4\chaika-test\x64\Debug\gtest_main.pdb
+C:\Users\bhffb\Desktop\spkursova\lab4\chaika-test\chaika-test\x64\Debug\chaika-t.227161D0.Up2Date

@@ -1,0 +1,4 @@
+﻿  test.cpp
+C:\Users\bhffb\Desktop\spkursova\lab4\chaika-test\stringProcessor.h(10,34): warning C4114: same type qualifier used more than once
+C:\Users\bhffb\Desktop\spkursova\lab4\chaika-test\stringProcessor.h(20,12): warning C4267: 'return': conversion from 'size_t' to 'const int32_t', possible loss of data
+  chaika-test.vcxproj -> C:\Users\bhffb\Desktop\spkursova\lab4\chaika-test\x64\Debug\chaika-test.exe
