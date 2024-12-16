@@ -26,7 +26,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        bat '"C:\Users\bhffb\Desktop\spkursova\lab4\chaika-test\x64\Debug\chaika-test.exe"'
+                        bat '"C:\\Users\\bhffb\\Desktop\\spkursova\\lab4\\chaika-test\\x64\\Debug\\chaika-test.exe"'
                     } catch (Exception e) {
                         echo "Test error: ${e.message}"
                         currentBuild.result = 'FAILURE'
