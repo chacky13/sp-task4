@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        bat '"C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" chaika-test.sln /p:Configuration=Debug /p:Platform=x64 /m'
+                       bat '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe" chaika-test.sln /p:Configuration=Debug /p:Platform=x64 /m'
                     } catch (Exception e) {
                         echo "Build error: ${e.message}"
                         currentBuild.result = 'FAILURE'
@@ -26,7 +26,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        bat '"C:\Users\bhffb\Desktop\spkursova\lab4\chaika-test\x64\Debug\chaika-test.exe"'
+                        bat '"C:\\Users\\bhffb\\Desktop\\spkursova\\lab4\\chaika-test\\x64\\Debug\\chaika-test.exe"'
                     } catch (Exception e) {
                         echo "Test error: ${e.message}"
                         currentBuild.result = 'FAILURE'
